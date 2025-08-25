@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Conculator</title>
+</head>
+<body>
+    <h1>Calkulator dostavki</h1>
+    <form id="delivery-form">
+        <label>
+            Gorod: 
+            <input type="text" id="city">
+        </label>
+        <br><br>
+        <label>
+            ves posilki (v kg);
+            <input type="number" id="weight" required>
+        </label>
+        <br><br>
+        <label>
+            Tip dostavki:
+            <select id="delivery-type">
+                <option value="standard">Standartnaya</option>
+                <option value="express">Express</option>
+            </select>
+        </label>
+        <br><br>
+        <button type="submit">Raschitat</button>
+    </form>
+    <h2>Stoimost: <span id="result">---</span></h2>
+    <script src="script.js"></script>
+</body>
+</html>
     <title>Document</title>
 </head>
 <body>
     <script src="script.js"></script>
 </body>
+</html>
 </html>
